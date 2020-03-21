@@ -1,6 +1,7 @@
 # Define o diretório inicial
 setwd('/Users/matheuspassossilva/.CMVolumes/DropBox/Formacao-CD/Curso-01/CAP00-Exercicios/2020-03-21-COVID-19')
 getwd()
+library(data.table)
 
 # Abre e lê os arquivos
 covidConfirmed <- data.frame(fread(file = 'time_series_2019-ncov-Confirmed.csv', header = TRUE, sep = ","))
